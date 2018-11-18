@@ -3,7 +3,7 @@
 Plugin Name:	Oxygen Responsive Menu
 Plugin URI:		https://wpdevdesign.com/oxygen-responsive-menu/
 Description:	Implements Genesis Responsive Menu in Oxygen.
-Version:		1.0.0
+Version:		1.0.1
 Author:			Sridhar Katakam
 Author URI:		https://wpdevdesign.com
 License:		GPL-2.0+
@@ -33,8 +33,7 @@ add_action( 'wp_enqueue_scripts', 'orm_enqueue_files' );
  */
 function orm_enqueue_files() {
 
-	// uncomment the line below if Dashicons is not being loaded.
-	// wp_enqueue_style( 'dashicons' );
+	wp_enqueue_style( 'dashicons' );
 
 	wp_enqueue_style( 'oxygen-responsive-menu', plugin_dir_url( __FILE__ ) . 'assets/css/main.css' );
 

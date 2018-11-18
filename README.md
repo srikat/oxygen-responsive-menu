@@ -37,3 +37,6 @@ Follow this [blog post](https://wpdevdesign.com/oxygen-responsive-menu/) for ste
 
 ### 1.0.0 - November 18, 2018 ###
 * Initial Release
+
+### 1.0.1 - November 18, 2018 ###
+* Set Dashicons to load so the up and down arrows can be seen.
