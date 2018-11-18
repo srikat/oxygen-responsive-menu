@@ -6,7 +6,7 @@ At the responsive breakpoint (959px by default), the menu will collapse into a h
 
 Menu items that have children will have a down arrow which when tapped will expand to show the sub menu. Tapping on the up arrow will collapse the sub menu.
 
-It is also possible to expand the menu without it pushing the page content below by uncommenting lines 191-196 in main.css.
+It is also possible to expand the menu without it pushing the page content below by uncommenting lines 193-198 in main.css.
 
 ## Live Demo ##
 
