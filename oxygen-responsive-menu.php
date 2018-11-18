@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:	Oxygen Responsive Menu
-Plugin URI:		https://wpdevdesign.com/oxygen-responsive-menu
+Plugin URI:		https://wpdevdesign.com/oxygen-responsive-menu/
 Description:	Implements Genesis Responsive Menu in Oxygen.
 Version:		1.0.0
 Author:			Sridhar Katakam
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 add_action( 'wp_enqueue_scripts', 'orm_enqueue_files' );
 /**
- * Loads Superfish <list assets here>.
+ * Load Superfish and other assets.
  */
 function orm_enqueue_files() {
 
@@ -56,12 +56,11 @@ function orm_enqueue_files() {
 		'genesis_responsive_menu',
 		genesis_responsive_menu_settings()
 	);
+
 }
 
 /**
  * Defines responsive menu settings.
- *
- * @since 2.3.0
  */
 function genesis_responsive_menu_settings() {
 
@@ -85,6 +84,12 @@ function genesis_responsive_menu_settings() {
 }
 
 add_shortcode( 'oxygen-responsive-menu', 'orm_oxygen_responsive_menu' );
+/**
+ * Register a custom shortcode to output the responsive menu.
+ *
+ * @param array $atts Array of attributes.
+ * @return string HTML markup.
+ */
 function orm_oxygen_responsive_menu( $atts ) {
 	$a = shortcode_atts( array(
 		'menu' => 'Main Menu',
