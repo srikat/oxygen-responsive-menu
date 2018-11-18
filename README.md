@@ -16,7 +16,8 @@ It is also possible to expand the menu without it pushing the page content below
 
 * This plugin is meant for developers who are comfortable hand coding/tweaking the CSS to match their designs.
 * Despite the name, this plugin is not integrated with Oxygen in any way. This means, it is not possible to set the mobile icon breakpoint, change the colors or any adjustments in the Oxygen editor. You will need to edit the plugin's CSS file using a FTP client or cPanel file manager etc.
-* This plugin can be used with any WordPress site.
+* This plugin can be used with any WordPress site. When used in a non-Oxygen site, replace `CT_VERSION` with `'1.0.0'` in the plugin's PHP file.
+* The plugin is offered as is without any guaranteed support.
 
 ## Installation ##
 
