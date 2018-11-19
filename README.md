@@ -40,3 +40,6 @@ Follow this [blog post](https://wpdevdesign.com/oxygen-responsive-menu/) for ste
 
 ### 1.0.1 - November 18, 2018 ###
 * Set Dashicons to load so the up and down arrows can be seen.
+
+### 1.0.2 - November 19, 2018 ###
+* Set arrows using pseudo element per [suggestion by David Browne](https://oxygenusers.slack.com/archives/CAJ5461DH/p1542592848347700?thread_ts=1542542814.345600&cid=CAJ5461DH) on desktop widths.

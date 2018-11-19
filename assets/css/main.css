@@ -4,14 +4,14 @@
 	overflow: hidden;
 	position: absolute!important;
 	width: 1px;
-    word-wrap: normal!important;
-    border: 0;
+	word-wrap: normal!important;
+	border: 0;
 }
 
 header {
 	position: relative;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.05);
-	        box-shadow: 0 0 20px rgba(0,0,0,0.05);
+			box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 /* Site Navigation
@@ -20,10 +20,10 @@ header {
 .genesis-nav-menu {
 	clear: both;
 	line-height: 1;
-    width: 100%;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+	width: 100%;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .genesis-nav-menu .menu-item {
@@ -39,8 +39,8 @@ header {
 	outline-offset: -1px;
 	padding-top: 14px;
 	padding-bottom: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .genesis-nav-menu a:focus,
@@ -48,7 +48,7 @@ header {
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-    color: #6799b2;
+	color: #6799b2;
 	text-decoration: none;
 }
 
@@ -70,8 +70,8 @@ header {
 
 .genesis-nav-menu .sub-menu a {
 	background-color: #fff;
-    font-size: 16px;
-    line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.5;
 	position: relative;
 	word-wrap: break-word;
 	padding-top: 10px;
@@ -135,10 +135,10 @@ header {
 	margin-top: 10px;
 	padding: 15px 0;
 	position: relative;
-    z-index: 1000;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 14px;
+	z-index: 1000;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 14px;
 }
 
 /* .menu-toggle.activated::before {
@@ -163,7 +163,7 @@ header {
 }
 
 .sub-menu .sub-menu-toggle {
-    padding: 12px 10px;
+	padding: 12px 10px;
 }
 
 .sub-menu-toggle::before {
@@ -240,7 +240,7 @@ header {
 	display: inline-block;
 	position: relative;
 	 -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+			transform: scale(0.5);
 }
 
 .hamburger-inner {
@@ -252,24 +252,24 @@ header {
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-    width: 40px;
-    height: 4px;
-    background-color: #000;
-    border-radius: 4px;
-    position: absolute;
-    -webkit-transition-property: -webkit-transform;
-    transition-property: -webkit-transform;
-    transition-property: transform;
-    transition-property: transform, -webkit-transform;
-    -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-    -webkit-transition-timing-function: ease;
+	width: 40px;
+	height: 4px;
+	background-color: #000;
+	border-radius: 4px;
+	position: absolute;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	-webkit-transition-duration: 0.15s;
+			transition-duration: 0.15s;
+	-webkit-transition-timing-function: ease;
 			transition-timing-function: ease;
 }
 
 .hamburger-inner::before,
 .hamburger-inner::after {
-    content: "";
+	content: "";
 	display: block;
 }
 
@@ -289,14 +289,14 @@ header {
 }
 
 .hamburger--slider .hamburger-inner::before {
-    top: 10px;
-    -webkit-transition-property: opacity, -webkit-transform;
-    transition-property: opacity, -webkit-transform;
-    transition-property: transform, opacity;
-    transition-property: transform, opacity, -webkit-transform;
-    -webkit-transition-timing-function: ease;
-            transition-timing-function: ease;
-    -webkit-transition-duration: 0.15s;
+	top: 10px;
+	-webkit-transition-property: opacity, -webkit-transform;
+	transition-property: opacity, -webkit-transform;
+	transition-property: transform, opacity;
+	transition-property: transform, opacity, -webkit-transform;
+	-webkit-transition-timing-function: ease;
+			transition-timing-function: ease;
+	-webkit-transition-duration: 0.15s;
 			transition-duration: 0.15s;
 }
 
@@ -311,14 +311,14 @@ header {
 }
 
 .hamburger--slider.activated .hamburger-inner::before {
-    -webkit-transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
-            transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+	-webkit-transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+			transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
 	opacity: 0;
 }
 
 .hamburger--slider.activated .hamburger-inner::after {
 	/* background-color: #6799b2; */
-    -webkit-transform: translate3d(0, -20px, 0) rotate(-90deg);
+	-webkit-transform: translate3d(0, -20px, 0) rotate(-90deg);
 			transform: translate3d(0, -20px, 0) rotate(-90deg);
 }
 
@@ -328,7 +328,7 @@ header {
 	--------------------------------------------- */
 
 	.genesis-nav-menu .menu-item {
-        display: inline-block;
+		display: inline-block;
 	}
 
 	.genesis-nav-menu .menu-item:focus,
@@ -390,30 +390,53 @@ header {
 		padding-top: 15px;
 	}
 
-	/* .menu-toggle,
+	.menu-toggle,
 	.sub-menu-toggle {
 		display: none;
 		visibility: hidden;
-    } */
+	}
 
-    .menu-toggle {
+	.menu-item.menu-item-has-children > a > span {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+	}
+
+	.menu-item.menu-item-has-children > a > span:after {
+		width: 6px;
+		height: 6px;
+		margin-left: 8px;
+		border-right: 1px solid;
+		border-top: 1px solid;
+		-webkit-transform: rotate(135deg);
+				transform: rotate(135deg);
+		content: "";
+		display: inline-block;
+	}
+
+	.sub-menu .menu-item.menu-item-has-children > a > span {
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+	}
+
+	.sub-menu .menu-item.menu-item-has-children > a > span:after {
+		-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+	}
+
+	.sub-menu-toggle::before {
+		width: 14px;
+		height: 14px;
+		font-size: 14px;
+	}
+
+	.sub-menu .sub-menu-toggle {
 		display: none;
-		visibility: hidden;
-    }
-
-    .sub-menu-toggle {
-        padding: 15px 10px;
-    }
-
-    .sub-menu-toggle::before {
-        width: 14px;
-        height: 14px;
-        font-size: 14px;
-    }
-
-    .sub-menu .sub-menu-toggle {
-        display: none;
-    }
+	}
 
 	/* Header Menu
 	--------------------------------------------- */
@@ -431,10 +454,6 @@ header {
 	.nav-primary .genesis-nav-menu a {
 		padding-left: 15px;
 		padding-right: 15px;
-    }
-
-    .nav-primary .genesis-nav-menu .menu-item-has-children a {
-        padding-right: 28px;
-    }
+	}
 
 }
