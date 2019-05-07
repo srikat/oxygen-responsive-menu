@@ -10,7 +10,7 @@ It is also possible to expand the menu without it pushing the page content below
 
 ## Live Demo ##
 
-[Demo Site](https://oxygenresponsivemenu.demo.site/)
+[Demo Site](https://oxyresponsivemenu.demo.site/)
 
 ## Note ##
 
